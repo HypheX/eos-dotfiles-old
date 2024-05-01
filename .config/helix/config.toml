@@ -3,8 +3,8 @@ theme = "tokyonight"
 [editor]
 line-number = "relative" # It's only relative in normal mode. Absolute in insert.
 cursorline = true # Makes the current line highlighted.
-auto-format = false
-auto-completion = false
+auto-format = true
+auto-completion = true
 
 [editor.cursor-shape]
 # Aids in knowing what mode you're in.
@@ -31,5 +31,3 @@ mode.select = "SELECT"
 render = true
 character = "╎" # Some characters that work well: "▏", "┆", "┊", "⸽"
 skip-levels = 1
-
-
