@@ -119,3 +119,5 @@ prompt_end() {
 alias hx="helix"
 alias spt="spotify_player"
 alias config="/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME"
+source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
