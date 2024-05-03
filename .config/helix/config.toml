@@ -1,10 +1,11 @@
-theme = "tokyonight"
+theme = "new_moon_mod"
 
 [editor]
 line-number = "relative" # It's only relative in normal mode. Absolute in insert.
 cursorline = true # Makes the current line highlighted.
 auto-format = true
 auto-completion = true
+gutters = ["diff", "spacer", "diagnostics", "line-numbers", "spacer", "spacer"]
 
 [editor.cursor-shape]
 # Aids in knowing what mode you're in.
