@@ -115,6 +115,8 @@ eval "$(zoxide init zsh)"
 #   #Adds the new line and ➜ as the start character.
 #   printf "\n ➜";
 # }
+path+=('/home/xelph/eww/target/release')
+export PATH
 
 alias hx="helix"
 alias spt="spotify_player"
