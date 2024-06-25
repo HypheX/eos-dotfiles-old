@@ -117,6 +117,7 @@ eval "$(zoxide init zsh)"
 # }
 path+=('/home/xelph/eww/target/release')
 export PATH
+export SUDO_EDITOR="/usr/bin/helix"
 
 alias hx="helix"
 alias spt="spotify_player"
