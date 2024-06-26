@@ -115,7 +115,7 @@ eval "$(zoxide init zsh)"
 #   #Adds the new line and ➜ as the start character.
 #   printf "\n ➜";
 # }
-path+=('/home/xelph/eww/target/release')
+path+=('/home/xelph/.cargo/bin/')
 export PATH
 export SUDO_EDITOR="/usr/bin/helix"
 
