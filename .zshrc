@@ -8,7 +8,7 @@ export ZSH="$HOME/.oh-my-zsh"
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
-ZSH_THEME="agnoster"
+ZSH_THEME="bira"
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -102,19 +102,19 @@ source $ZSH/oh-my-zsh.sh
 
 eval "$(zoxide init zsh)"
 
-prompt_end() {
-  if [[ -n $CURRENT_BG ]]; then
-      print -n "%{%k%F{$CURRENT_BG}%}$SEGMENT_SEPARATOR"
-  else
-      print -n "%{%k%}"
-  fi
+# prompt_end() {
+#   if [[ -n $CURRENT_BG ]]; then
+#       print -n "%{%k%F{$CURRENT_BG}%}$SEGMENT_SEPARATOR"
+#   else
+#       print -n "%{%k%}"
+#   fi
 
-  print -n "%{%f%}"
-  CURRENT_BG='' 
+#   print -n "%{%f%}"
+#   CURRENT_BG='' 
 
-  #Adds the new line and ➜ as the start character.
-  printf "\n ➜";
-}
+#   #Adds the new line and ➜ as the start character.
+#   printf "\n ➜";
+# }
 path+=('/home/xelph/.cargo/bin/')
 export PATH
 export SUDO_EDITOR="/usr/bin/helix"
