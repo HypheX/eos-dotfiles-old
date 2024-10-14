@@ -76,7 +76,13 @@ source $ZSH/oh-my-zsh.sh
 
 # User configuration
 
+# for zsh
+_fg () { fg 2> /dev/null }
+zle -N _fg
+bindkey ^Z _fg
+
 # export MANPATH="/usr/local/man:$MANPATH"
+
 
 # You may need to manually set your language environment
 # export LANG=en_US.UTF-8
