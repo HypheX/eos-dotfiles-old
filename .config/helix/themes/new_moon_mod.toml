@@ -71,10 +71,11 @@
 "ui.linenr.selected" = { fg = "light_gray_virtual" }
 
 "ui.cursorline.primary" = { bg = "active_line" }
-"ui.statusline" = { fg = "white", bg = "darker_blue" }
-# "ui.statusline.inactive" = { fg = "white", bg = "blue" }
-# "ui.statusline.insert" = { fg = "white", bg = "yellow" }
-# "ui.statusline.select" = { fg = "white", bg = "magenta" }
+"ui.statusline" = {fg = "white", bg = "darkest"}
+"ui.statusline.normal" = { fg = "white", bg = "darker_blue" }
+"ui.statusline.inactive" = { fg = "white", bg = "blue" }
+"ui.statusline.insert" = { fg = "white", bg = "dark_yellow" }
+"ui.statusline.select" = { fg = "white", bg = "dark_green" }
 
 "ui.bufferline" = { fg = "text", bg = "widget" }
 "ui.bufferline.active" = { fg = "white", bg = "darker_blue" }
@@ -106,12 +107,14 @@ lightest = "#ffffff"
 red = "#f2777a"
 orange = "#fca369"
 yellow = "#ffd479"
+dark_yellow = "#a89f25"
 light_yellow = "#ffeea6"
 green = "#92d192"
+dark_green = "#38b038"
 blue = "#6ab0f3"
 light_blue = "#a2d7e2"
 darker_blue = "#007acc"
-darkest_blue= "#264f78"
+darkest_blue = "#264f78"
 aqua = "#76d4d6"
 purple = "#e1a6f2"
 beige = "#ac8d58"

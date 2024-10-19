@@ -1,11 +1,17 @@
 theme = "new_moon_mod"
 
 [editor]
+# Appearance
+color-modes = true
 line-number = "relative" # It's only relative in normal mode. Absolute in insert.
 cursorline = true # Makes the current line highlighted.
+bufferline = "multiple"
+gutters = ["diff", "spacer", "diagnostics", "line-numbers", "spacer", "spacer"]
+
+# Behaviour
+mouse = false
 auto-format = true
 auto-completion = true
-gutters = ["diff", "spacer", "diagnostics", "line-numbers", "spacer", "spacer"]
 
 [editor.cursor-shape]
 # Aids in knowing what mode you're in.
